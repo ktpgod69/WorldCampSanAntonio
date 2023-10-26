@@ -51,7 +51,26 @@
   <button type="button" class="btn btn-secondary btn-lg">Register Now</button>
   <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a>
 </div>
+  </div><!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="Register for WorldCamp Conference" id="Register">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
   </div>
+</div>
 </div>  
  
     <h1> <div class="p-3 mb-2 bg-dark text-white">
@@ -87,12 +106,14 @@
     <div class="col-lg order-3">
       <h3 class="mb-4">What You'll Learn</h3>
 <ul>
-  <li><strong>WordPress 5</strong>: New Gutenberg editor</li>
-  <li><strong>WooCommerce</strong>: E-commerce platform</li>
-  <li><strong>Hosting</strong>: Managed web hosting</li>
-  <li><strong>Themes</strong>: Creating your theme</li>
-  <li><strong>Plugins</strong>: Develop your plugin</li>
-  <li><strong>Content</strong>: Writing and podcasts</li>
+  <div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action"><strong>WordPress 5</strong>: New Gutenberg editor</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>WooCommerce</strong>: E-commerce platform</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Hosting</strong>: Managed web hosting</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Themes</strong>: Creating your theme</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Plugins</strong>: Develop your plugin</a>
+  <a href="#" class="list-group-item list-group-item-action"><strong>Content</strong>: Writing and podcasts</a>
+</div>
 </ul>
 		
     </div>
@@ -136,15 +157,79 @@
 </div>
 
 <!-- schedule -->
-		
-<h1 class="display-4 text-center my-5 text-muted">Schedule</h1>
-[Conference schedule goes here]
-<!-- /speakers -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<h2 id="schedule" class="display-4 text-center my-5 text-muted">Schedule</h2>
+<ul class="list-group">
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Keynote: WordPress 5.0</h5>
+      <span class="badge badge-pill badge-secondary p-2">9:00am</span>
+    </div>
+    <p class="mb-1">Dwayne Johnson</p>
+	  
+  </li>
+</ul>
+	  <ul class="list-group">
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">WooCommerce Basics</h5>
+      <span class="badge badge-pill badge-secondary p-2">10:00am</span>
+    </div>
+    <p class="mb-1">Tina Fey</p>
+	  
+  </li>
+</ul>
+	  <ul class="list-group">
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">WPEngine & Flywheel</h5>
+      <span class="badge badge-pill badge-secondary p-2">11:00am</span>
+    </div>
+    <p class="mb-1">Jon Bernthal</p>
+	  
+  </li>
+</ul>
+	  <ul class="list-group">
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">lunch</h5>
+      <span class="badge badge-pill badge-secondary p-2">12:00am</span>
+    </div>
+    <p class="mb-1">Free Burgers for everyone</p>
+	  
+  </li>
+</ul>
+	  <ul class="list-group">
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Creating your Theme</h5>
+      <span class="badge badge-pill badge-secondary p-2">1:00am</span>
+    </div>
+    <p class="mb-1">Bill Burr</p>
+	  
+  </li>
+</ul>
+	  <ul class="list-group">
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Developing a Plugin</h5>
+      <span class="badge badge-pill badge-secondary p-2">2:00am</span>
+    </div>
+    <p class="mb-1">Lily Collins</p>
+	  
+  </li>
+</ul>
+	  <ul class="list-group">
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between">
+      <h5 class="mb-1">Creating great Content and Podcasts</h5>
+      <span class="badge badge-pill badge-secondary p-2">3:00am</span>
+    </div>
+    <p class="mb-1">Jimmy Butler</p>
+	  
+  </li>
+</ul>
+<!-- /schedule -->
+
 		<!-- signup form -->
 <hr>
 <div class="row py-4 text-muted">
@@ -164,7 +249,7 @@
 </div>
 <hr>
 		<!-- callout button -->
-<button type="button" class="btn btn-secondary btn-lg d-block mx-auto my-5">Don't Miss Out, Register Now</button> 
+<button type="button" class="btn btn-secondary btn-lg d-block mx-auto my-5 data-toggle="modal" data-target="#register>Don't Miss Out, Register Now</button> 
 <!-- /signup form -->
  <!-- footer -->
   <div class="row py-3">
