@@ -16,7 +16,7 @@
 <body data-spy="scroll" data-target=".navbar" id="home" >
 
 <!-- navbar --> 
-<!-- /navbar -->
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container"> <a class="navbar-brand order-1 mr-0" href="#" target="_blank">Presented by NVC</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
@@ -30,9 +30,10 @@
     </div>
   </div>
 </nav>
+    <!-- /navbar -->
 <!-- jumbotron --> 
-<!-- /jumbotron -->
-<div class="jumbotron jumbotron-fluid">
+
+<div class="jumbotron jumbotron-fluid" id="home1">
   <div class="container text-sm-center pt-5 bg-info">
     <h1 class="display-4">WorldCamp San Antonio</h1>
     <p class="lead">A One-day Conference About WordPress</p>
@@ -40,9 +41,10 @@
       <button type="button" class="btn btn-secondary btn-lg">Register Now</button>
       <a class="btn btn-light btn-lg" href="#speakers">See Speakers</a> </div>
   </div>
+    <!-- /jumbotron -->
   <!-- Modal -->
   <form>
-    <div class="form-group">
+    <div class="form-group" id="register">
       <label for="exampleFormControlInput1">Name:</label>
       <input type="text" class="form-control" id="name" placeholder="">
       <label for="exampleFormControlInput1">Email:</label>
@@ -140,7 +142,7 @@
     </div>
     <div class="container pt-4"> 
       <!-- about -->
-      <div class="row">
+      <div class="row" id="about">
         <div class="col-lg order-lg-2">
           <h3 class="mb-4">About WorldCamp</h3>
           <img class="img-fluid rounded" src="sa city web.jpg" alt="Photo of San Antonio, TX">
