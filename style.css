@@ -1,0 +1,86 @@
+/* CSS Document */
+/* jumbotron */
+body {
+  background: url(https://1drv.ms/i/s!Ai98WizfprYDgpdUpsCzcBn2pUE0ow?e=rzmecD);
+}
+body {
+  background: #f5c6cb;
+  color: #f5c6cb;
+  font-family: Helvetica, Arial;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 1.65em;
+  margin: 0 auto;
+  max-width: auto;
+  padding: 40px 10px;  
+}
+
+
+/* Heading Styles */
+h1 {
+  font-size: 50px;
+  color: #0E0A0A;
+  text-align: center;
+}
+
+
+/* Submit Button, Columns, information, and Inputs */
+.button-submit {
+  background: transparent;
+  border: 3px solid #ba8b00;
+  border-radius: 6px;
+  color: #000000;
+  cursor: pointer; 
+  display: block;
+  font-size: 20px;
+  font-weight: bold;  
+  margin: 0 auto 60px;
+  padding: 1em 2em; 
+  text-align: center; 
+}
+
+.bucket {
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.choice-bucket {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 33.333333%;
+}
+
+.choice-bucket label {
+  font-size: 12px;
+  line-height: 13px;
+  margin: 15px 4%;
+}
+
+.choice-bucket input {
+  border: 0;
+  border-radius: 6px;
+  color: #000000;
+  font-size: 18px;
+  margin: 15px 4%;
+  outline: 0;
+  padding: 16px 0;
+  text-indent: 20px;
+  width: 92%;  
+}
+
+.choice-bucket label ~ input {
+  margin-top: 0;
+}
+
+.highlight {
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 30px;
+  opacity: .8;
+}
+
+
+
